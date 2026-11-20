@@ -257,10 +257,10 @@ Keep both lines intact."""
 
 class ModelSelectionTests(unittest.TestCase):
     def test_model_and_effort_overrides(self):
-        defaults = {"model": "gemini-3.8-flash-high", "effort": "high"}
+        defaults = json.loads((SCRIPTS / "profiles.json").read_text(encoding="utf-8"))["agy"]
         cases = [
-            (None, None, "gemini-3.8-flash-high", "high"),
-            (None, "medium", "gemini-3.8-flash-medium", "medium"),
+            (None, None, "gemini-4-hydrogen-xhigh", "xhigh"),
+            (None, "medium", "gemini-4-hydrogen-medium", "medium"),
             ("gemini-4-argon-high", None, "gemini-4-argon-high", "high"),
             ("gemini-4-hydrogen-low", None, "gemini-4-hydrogen-low", "low"),
             ("gemini-4-neon", "xhigh", "gemini-4-neon", "xhigh"),

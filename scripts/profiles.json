@@ -1,5 +1,5 @@
 {
-  "agy": {"model": "gemini-3.8-flash-high", "effort": "high"},
+  "agy": {"model": "gemini-4-hydrogen-xhigh", "effort": "xhigh"},
   "zcode": {"model": "account:bigmodel-individual-coding-plan/GLM-5.3-Flash", "effort": "max"},
   "opencode": {"model": "opencode/deepseek-v4.1-flash-free", "effort": "max"}
 }

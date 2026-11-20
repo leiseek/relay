@@ -11,7 +11,7 @@ description: 在 Windows、macOS 或 Linux 上通过本机 AGY、ZCode、OpenCod
 
 | 引擎 | 默认模型 | 档位 |
 | --- | --- | --- |
-| AGY | `gemini-3.8-flash-high` | `high` |
+| AGY | `gemini-4-hydrogen-xhigh` | `xhigh` |
 | OpenCode | `opencode/deepseek-v4.1-flash-free` | `max` |
 | ZCode | `account:bigmodel-individual-coding-plan/GLM-5.3-Flash` | `max` |
 
