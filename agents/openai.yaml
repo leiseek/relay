@@ -1,0 +1,4 @@
+interface:
+  display_name: "Relay"
+  short_description: "Delegate work to AGY, ZCode and OpenCode CLI agents"
+  default_prompt: "使用 $relay 调用外部代理完成任务，遇到限流或额度耗尽时接手。"
